@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Light Games</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!-- Aqui começa o cabeçalho -->
+  <header class="cabecalho" id="header">
+    <div class="navbar navbar-expand-lg">
+      <div class="container">
+        <h1>LIGHT GAMES</h1>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="nav navbar-nav nav-pills">
+            <li class="nav-item"><a class="nav-link active" href="#carousel-img">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destaque">Destaques</a></li>
+            <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Aqui termina o cabeçalho -->
+  <!-- Aqui começa o carousel -->
+  <div id="carousel-img" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div data-bs-interval="2500" class="carousel-item active">
+        <img class="d-block w-100" src="/img/batman.jpg" alt="">
+        <div class="carousel-caption">
+          <h2>Batman Arkham Knight</h2>
+        </div>
+      </div>
+      <div data-bs-interval="2500" class="carousel-item">
+        <img class="d-block w-100" src="/img/codmw2.jpg" alt="">
+        <div class="carousel-caption">
+          <h2>Call of Duty: MW2</h2>
+        </div>
+      </div>
+      <div data-bs-interval="2500" class="carousel-item">
+        <img class="d-block w-100" src="/img/darksouls3.jpg" alt="">
+        <div class="carousel-caption">
+          <h2>Dark Souls 3</h2>
+        </div>
+      </div>
+    </div>
+    <button data-bs-target="#carousel-img" data-bs-slide="prev" type="button" class="carousel-control-prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button data-bs-target="#carousel-img" data-bs-slide="next" type="button" class="carousel-control-next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+    <div class="carousel-indicators">
+      <button data-bs-target="#carousel-img" data-bs-slide-to="0" class="active" type="button"></button>
+      <button data-bs-target="#carousel-img" data-bs-slide-to="1" type="button"></button>
+      <button data-bs-target="#carousel-img" data-bs-slide-to="2" type="button"></button>
+    </div>
+  </div>
+  <!-- Aqui termina o carousel -->
+  <!-- Aqui começa a section de destaque -->
+  <div data-bs-spy="scroll" data-bs-target="#header">
+    <section id="destaque">
+      <h3 class="title">Em Destaque:</h3>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 1</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 2</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 3</h4>
+              </div>
+              <img src="/img/batman.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ea impedit odit illum, aspernatur aut? Repellat nihil eos consequatur nulla accusamus nostrum porro cupiditate asperiores distinctio. Numquam, praesentium. Voluptatibus, dolor!</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 3</h4>
+              </div>
+              <img src="/img/batman.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ea impedit odit illum, aspernatur aut? Repellat nihil eos consequatur nulla accusamus nostrum porro cupiditate asperiores distinctio. Numquam, praesentium. Voluptatibus, dolor!</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 4</h4>
+              </div>
+              <img src="/img/darksouls3.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat atque necessitatibus, totam illum odit ipsa quos debitis hic, corporis facilis libero magnam molestias, soluta exercitationem enim deserunt ut cumque?</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 4</h4>
+              </div>
+              <img src="/img/darksouls3.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat atque necessitatibus, totam illum odit ipsa quos debitis hic, corporis facilis libero magnam molestias, soluta exercitationem enim deserunt ut cumque?</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 4</h4>
+              </div>
+              <img src="/img/darksouls3.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat atque necessitatibus, totam illum odit ipsa quos debitis hic, corporis facilis libero magnam molestias, soluta exercitationem enim deserunt ut cumque?</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Aqui termina o section de destaque -->
+    <!-- Aqui começa a section de produtos -->
+    <section id="produtos">
+      <h3 class="title">Produtos:</h3>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 1</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 2</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 3</h4>
+              </div>
+              <img src="/img/batman.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ea impedit odit illum, aspernatur aut? Repellat nihil eos consequatur nulla accusamus nostrum porro cupiditate asperiores distinctio. Numquam, praesentium. Voluptatibus, dolor!</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 4</h4>
+              </div>
+              <img src="/img/darksouls3.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat atque necessitatibus, totam illum odit ipsa quos debitis hic, corporis facilis libero magnam molestias, soluta exercitationem enim deserunt ut cumque?</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 1</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 1</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 1</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 1</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Card 1</h4>
+              </div>
+              <img src="/img/codmw2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia reiciendis, aspernatur, nulla atque maiores magni autem, ipsum maxime magnam sapiente repellat expedita dicta veniam natus labore? Reprehenderit ex hic repellendus.</p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Veja Mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
+  <!-- Aqui termina a section de produtos -->
+  <!-- Aqui começa o footer -->
+  <footer class="rodape">
+    &copy; Todos os direitos reservados.
+  </footer>
+  <!-- Aqui termina o footer -->
+  <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
